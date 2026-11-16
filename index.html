@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COLOURCRAFT PAINTS | Colour Your World</title>
+<style>
+:root{--navy:#172554;--blue:#2563eb;--orange:#f97316;--pink:#ec4899;--green:#16a34a;--yellow:#facc15}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:#1f2937;background:#fffdf8;line-height:1.6}
+header{position:sticky;top:0;background:white;box-shadow:0 2px 14px #0001;z-index:5}
+.nav{max-width:1100px;margin:auto;padding:15px 22px;display:flex;justify-content:space-between;align-items:center;gap:18px}
+.logo{font-weight:900;color:var(--navy);letter-spacing:1px}
+.logo span{color:var(--orange)}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#172554;text-decoration:none;font-weight:bold}
+nav a:hover{color:var(--pink)}
+.hero{padding:85px 22px;color:white;background:linear-gradient(120deg,#172554,#2563eb,#ec4899)}
+.wrap{max-width:1100px;margin:auto}
+.tag{text-transform:uppercase;letter-spacing:2px;color:#facc15;font-size:.8rem;font-weight:900}
+h1{font-size:clamp(2.6rem,7vw,5rem);line-height:1.05;max-width:750px;margin:12px 0}
+.hero p{max-width:620px;font-size:1.1rem}
+.btn{display:inline-block;margin-top:15px;background:#facc15;color:#172554;padding:12px 22px;border-radius:30px;text-decoration:none;font-weight:900}
+section{padding:65px 22px}
+.section-tag{color:#ec4899;text-transform:uppercase;letter-spacing:2px;font-weight:900;font-size:.8rem}
+h2{font-size:clamp(1.9rem,4vw,2.7rem);color:#172554;margin:8px 0}
+.intro{max-width:680px;color:#64748b}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.colour-block{min-height:230px;border-radius:22px;padding:25px;color:white;font-size:1.5rem;font-weight:900;display:flex;align-items:end;background:linear-gradient(135deg,#f97316 0 25%,#facc15 25% 50%,#16a34a 50% 75%,#2563eb 75%)}
+.products{background:#f1f5f9}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:25px}
+.card{background:white;padding:22px;border-radius:18px;box-shadow:0 8px 24px #0000000c}
+.swatch{height:12px;border-radius:20px;margin-bottom:15px}
+.card h3{color:#172554;margin:0 0 6px}
+.card p{color:#64748b;margin:0}
+.palette{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:24px}
+.shade{min-height:100px;border-radius:13px;padding:10px;display:flex;align-items:end;color:white;font-weight:bold;text-shadow:0 1px 4px #0008}
+.contact{background:#172554;color:white}
+.contact h2{color:white}
+.contact .intro{color:#cbd5e1}
+form{display:grid;gap:12px;max-width:620px;margin-top:25px}
+input,select,textarea{width:100%;padding:13px;border:0;border-radius:9px;font:inherit}
+textarea{min-height:110px}
+button{padding:13px 22px;border:0;border-radius:30px;background:#facc15;color:#172554;font-weight:900;cursor:pointer;justify-self:start}
+footer{text-align:center;background:#0f172a;color:#cbd5e1;padding:22px}
+@media(max-width:720px){
+.nav{align-items:flex-start;flex-direction:column}
+nav{gap:12px}
+.about,.cards{grid-template-columns:1fr}
+.palette{grid-template-columns:repeat(3,1fr)}
+.hero{padding:65px 22px}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<a class="logo" href="#home">COLOURCRAFT <span>PAINTS</span></a>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#paints">Paints</a>
+<a href="#colours">Colours</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero" id="home">
+<div class="wrap">
+<div class="tag">Make every space special</div>
+<h1>Colour your world. Brighten your life.</h1>
+<p>Discover beautiful colours and quality paint ideas for homes, offices and businesses. Give every wall a fresh new look with COLOURCRAFT PAINTS.</p>
+<a class="btn" href="#paints">Explore our paints</a>
+</div>
+</section>
+<section id="about">
+<div class="wrap about">
+<div>
+<div class="section-tag">Who we are</div>
+<h2>A fresh coat. A fresh feeling.</h2>
+<p class="intro">COLOURCRAFT PAINTS helps people bring their spaces to life through colour. Whether you prefer calm shades or bold statements, there is a colour for every idea.</p>
+<p>Our goal is to make choosing paint simple, enjoyable and inspiring for every customer.</p>
+</div>
+<div class="colour-block">A little colour changes everything.</div>
+</div>
+</section>
+<section class="products" id="paints">
+<div class="wrap">
+<div class="section-tag">What we offer</div>
+<h2>Paint for every project</h2>
+<p class="intro">Explore popular paint categories and choose what suits your space.</p>
+<div class="cards">
+<article class="card">
+<div class="swatch" style="background:linear-gradient(90deg,#f8fafc,#cbd5e1)"></div>
+<h3>Interior Paint</h3>
+<p>Give indoor walls a clean, welcoming and beautiful finish.</p>
+</article>
+<article class="card">
+<div class="swatch" style="background:linear-gradient(90deg,#16a34a,#0f766e)"></div>
+<h3>Exterior Paint</h3>
+<p>Add character and colour to outside walls and buildings.</p>
+</article>
+<article class="card">
+<div class="swatch" style="background:linear-gradient(90deg,#f97316,#be123c)"></div>
+<h3>Decorative Colours</h3>
+<p>Use bold and creative shades to make special features stand out.</p>
+</article>
+</div>
+</div>
+</section>
+<section id="colours">
+<div class="wrap">
+<div class="section-tag">Find your shade</div>
+<h2>Colours that speak</h2>
+<p class="intro">Choose a colour family to inspire your next painting project.</p>
+<div class="palette">
+<div class="shade" style="background:#ef4444">Red</div>
+<div class="shade" style="background:#f97316">Orange</div>
+<div class="shade" style="background:#eab308">Yellow</div>
+<div class="shade" style="background:#16a34a">Green</div>
+<div class="shade" style="background:#2563eb">Blue</div>
+<div class="shade" style="background:#9333ea">Purple</div>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<div class="wrap">
+<div class="section-tag">Get in touch</div>
+<h2>Let's talk about your next project.</h2>
+<p class="intro">Send an enquiry and it will come directly to markmaron2343@gmail.com</p>
+
+<form action="https://formsubmit.co/markmaron2343@gmail.com" method="POST">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="NEW PAINT ENQUIRY - ColourCraft Paints">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://markmaron2343.github.io/ColourCraft-paints/">
+
+<input type="text" name="Name" placeholder="Your name" required>
+<input type="email" name="Email" placeholder="Your email address" required>
+<select name="Interest" required>
+<option value="">What are you interested in?</option>
+<option>Interior paint</option>
+<option>Exterior paint</option>
+<option>Decorative colours</option>
+<option>Other</option>
+</select>
+<textarea name="Message" placeholder="Tell us about your project..." required></textarea>
+<button type="submit">Prepare enquiry</button>
+</form>
+<p id="status" style="margin-top:15px;color:#facc15"></p>
+
+</div>
+</section>
+</main>
+<footer>© <span id="year"></span> COLOURCRAFT PAINTS. All rights reserved.</footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
